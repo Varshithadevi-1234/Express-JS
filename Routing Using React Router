@@ -1,3 +1,25 @@
+//create three files Home.jsx,About.jsx,Contact.jsx and place below codes
+//Home.jsx
+
+function Home() {
+ return <h2>Home Page</h2>;
+}
+export default Home; 
+
+//About.jsx
+
+function About() {
+ return <h2>About Page</h2>;
+}
+export default About; 
+
+//Contact.jsx
+
+function Contact() {
+ return <h2>Contact Page</h2>;
+}
+export default Contact; 
+
 //in App.jsx
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
